@@ -10,7 +10,7 @@ test.beforeEach(async({loginPage})=>
        
 })
 
-test("Login page Title",async({loginPage})=>{
+test("Login page Title @sanity",async({loginPage})=>{
 
     
     let title=await loginPage.getLoginPAgeTitle();
@@ -29,7 +29,7 @@ test("Forgot password link exists test",async({loginPage})=>{
     
 })
 
-test("Login functionLITY",async({loginPage,homepage})=>{
+test("Login functionLITY @sanity",async({loginPage,homepage})=>{
 
    
 
